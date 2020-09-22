@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		67557F9F251A27CB00C7B36A /* Neomorphic_buttonApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67557F9E251A27CB00C7B36A /* Neomorphic_buttonApp.swift */; };
+		67557FA1251A27CB00C7B36A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67557FA0251A27CB00C7B36A /* ContentView.swift */; };
+		67557FA3251A27CC00C7B36A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 67557FA2251A27CC00C7B36A /* Assets.xcassets */; };
+		67557FA6251A27CC00C7B36A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 67557FA5251A27CC00C7B36A /* Preview Assets.xcassets */; };
+		67557FB1251A27CD00C7B36A /* Neomorphic_buttonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67557FB0251A27CD00C7B36A /* Neomorphic_buttonTests.swift */; };
+		67557FBC251A27CD00C7B36A /* Neomorphic_buttonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67557FBB251A27CD00C7B36A /* Neomorphic_buttonUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		67557FAD251A27CD00C7B36A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 67557F93251A27CB00C7B36A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 67557F9A251A27CB00C7B36A;
+			remoteInfo = "Neomorphic button";
+		};
+		67557FB8251A27CD00C7B36A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 67557F93251A27CB00C7B36A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 67557F9A251A27CB00C7B36A;
+			remoteInfo = "Neomorphic button";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		67557F9B251A27CB00C7B36A /* Neomorphic button.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Neomorphic button.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		67557F9E251A27CB00C7B36A /* Neomorphic_buttonApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Neomorphic_buttonApp.swift; sourceTree = "<group>"; };
+		67557FA0251A27CB00C7B36A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		67557FA2251A27CC00C7B36A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		67557FA5251A27CC00C7B36A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		67557FA7251A27CC00C7B36A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		67557FAC251A27CD00C7B36A /* Neomorphic buttonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Neomorphic buttonTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		67557FB0251A27CD00C7B36A /* Neomorphic_buttonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Neomorphic_buttonTests.swift; sourceTree = "<group>"; };
+		67557FB2251A27CD00C7B36A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		67557FB7251A27CD00C7B36A /* Neomorphic buttonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Neomorphic buttonUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		67557FBB251A27CD00C7B36A /* Neomorphic_buttonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Neomorphic_buttonUITests.swift; sourceTree = "<group>"; };
+		67557FBD251A27CD00C7B36A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		67557F98251A27CB00C7B36A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67557FA9251A27CD00C7B36A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67557FB4251A27CD00C7B36A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		67557F92251A27CB00C7B36A = {
+			isa = PBXGroup;
+			children = (
+				67557F9D251A27CB00C7B36A /* Neomorphic button */,
+				67557FAF251A27CD00C7B36A /* Neomorphic buttonTests */,
+				67557FBA251A27CD00C7B36A /* Neomorphic buttonUITests */,
+				67557F9C251A27CB00C7B36A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		67557F9C251A27CB00C7B36A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				67557F9B251A27CB00C7B36A /* Neomorphic button.app */,
+				67557FAC251A27CD00C7B36A /* Neomorphic buttonTests.xctest */,
+				67557FB7251A27CD00C7B36A /* Neomorphic buttonUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		67557F9D251A27CB00C7B36A /* Neomorphic button */ = {
+			isa = PBXGroup;
+			children = (
+				67557F9E251A27CB00C7B36A /* Neomorphic_buttonApp.swift */,
+				67557FA0251A27CB00C7B36A /* ContentView.swift */,
+				67557FA2251A27CC00C7B36A /* Assets.xcassets */,
+				67557FA7251A27CC00C7B36A /* Info.plist */,
+				67557FA4251A27CC00C7B36A /* Preview Content */,
+			);
+			path = "Neomorphic button";
+			sourceTree = "<group>";
+		};
+		67557FA4251A27CC00C7B36A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				67557FA5251A27CC00C7B36A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		67557FAF251A27CD00C7B36A /* Neomorphic buttonTests */ = {
+			isa = PBXGroup;
+			children = (
+				67557FB0251A27CD00C7B36A /* Neomorphic_buttonTests.swift */,
+				67557FB2251A27CD00C7B36A /* Info.plist */,
+			);
+			path = "Neomorphic buttonTests";
+			sourceTree = "<group>";
+		};
+		67557FBA251A27CD00C7B36A /* Neomorphic buttonUITests */ = {
+			isa = PBXGroup;
+			children = (
+				67557FBB251A27CD00C7B36A /* Neomorphic_buttonUITests.swift */,
+				67557FBD251A27CD00C7B36A /* Info.plist */,
+			);
+			path = "Neomorphic buttonUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		67557F9A251A27CB00C7B36A /* Neomorphic button */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67557FC0251A27CD00C7B36A /* Build configuration list for PBXNativeTarget "Neomorphic button" */;
+			buildPhases = (
+				67557F97251A27CB00C7B36A /* Sources */,
+				67557F98251A27CB00C7B36A /* Frameworks */,
+				67557F99251A27CB00C7B36A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Neomorphic button";
+			productName = "Neomorphic button";
+			productReference = 67557F9B251A27CB00C7B36A /* Neomorphic button.app */;
+			productType = "com.apple.product-type.application";
+		};
+		67557FAB251A27CD00C7B36A /* Neomorphic buttonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67557FC3251A27CD00C7B36A /* Build configuration list for PBXNativeTarget "Neomorphic buttonTests" */;
+			buildPhases = (
+				67557FA8251A27CD00C7B36A /* Sources */,
+				67557FA9251A27CD00C7B36A /* Frameworks */,
+				67557FAA251A27CD00C7B36A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				67557FAE251A27CD00C7B36A /* PBXTargetDependency */,
+			);
+			name = "Neomorphic buttonTests";
+			productName = "Neomorphic buttonTests";
+			productReference = 67557FAC251A27CD00C7B36A /* Neomorphic buttonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		67557FB6251A27CD00C7B36A /* Neomorphic buttonUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67557FC6251A27CD00C7B36A /* Build configuration list for PBXNativeTarget "Neomorphic buttonUITests" */;
+			buildPhases = (
+				67557FB3251A27CD00C7B36A /* Sources */,
+				67557FB4251A27CD00C7B36A /* Frameworks */,
+				67557FB5251A27CD00C7B36A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				67557FB9251A27CD00C7B36A /* PBXTargetDependency */,
+			);
+			name = "Neomorphic buttonUITests";
+			productName = "Neomorphic buttonUITests";
+			productReference = 67557FB7251A27CD00C7B36A /* Neomorphic buttonUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		67557F93251A27CB00C7B36A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					67557F9A251A27CB00C7B36A = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					67557FAB251A27CD00C7B36A = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = 67557F9A251A27CB00C7B36A;
+					};
+					67557FB6251A27CD00C7B36A = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = 67557F9A251A27CB00C7B36A;
+					};
+				};
+			};
+			buildConfigurationList = 67557F96251A27CB00C7B36A /* Build configuration list for PBXProject "Neomorphic button" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 67557F92251A27CB00C7B36A;
+			productRefGroup = 67557F9C251A27CB00C7B36A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				67557F9A251A27CB00C7B36A /* Neomorphic button */,
+				67557FAB251A27CD00C7B36A /* Neomorphic buttonTests */,
+				67557FB6251A27CD00C7B36A /* Neomorphic buttonUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		67557F99251A27CB00C7B36A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67557FA6251A27CC00C7B36A /* Preview Assets.xcassets in Resources */,
+				67557FA3251A27CC00C7B36A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67557FAA251A27CD00C7B36A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67557FB5251A27CD00C7B36A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		67557F97251A27CB00C7B36A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67557FA1251A27CB00C7B36A /* ContentView.swift in Sources */,
+				67557F9F251A27CB00C7B36A /* Neomorphic_buttonApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67557FA8251A27CD00C7B36A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67557FB1251A27CD00C7B36A /* Neomorphic_buttonTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67557FB3251A27CD00C7B36A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67557FBC251A27CD00C7B36A /* Neomorphic_buttonUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		67557FAE251A27CD00C7B36A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 67557F9A251A27CB00C7B36A /* Neomorphic button */;
+			targetProxy = 67557FAD251A27CD00C7B36A /* PBXContainerItemProxy */;
+		};
+		67557FB9251A27CD00C7B36A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 67557F9A251A27CB00C7B36A /* Neomorphic button */;
+			targetProxy = 67557FB8251A27CD00C7B36A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		67557FBE251A27CD00C7B36A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		67557FBF251A27CD00C7B36A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		67557FC1251A27CD00C7B36A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Neomorphic button/Preview Content\"";
+				DEVELOPMENT_TEAM = CPYT3A73TA;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Neomorphic button/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "mauro.Neomorphic-button";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		67557FC2251A27CD00C7B36A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Neomorphic button/Preview Content\"";
+				DEVELOPMENT_TEAM = CPYT3A73TA;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Neomorphic button/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "mauro.Neomorphic-button";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		67557FC4251A27CD00C7B36A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CPYT3A73TA;
+				INFOPLIST_FILE = "Neomorphic buttonTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "mauro.Neomorphic-buttonTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Neomorphic button.app/Neomorphic button";
+			};
+			name = Debug;
+		};
+		67557FC5251A27CD00C7B36A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CPYT3A73TA;
+				INFOPLIST_FILE = "Neomorphic buttonTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "mauro.Neomorphic-buttonTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Neomorphic button.app/Neomorphic button";
+			};
+			name = Release;
+		};
+		67557FC7251A27CD00C7B36A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CPYT3A73TA;
+				INFOPLIST_FILE = "Neomorphic buttonUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "mauro.Neomorphic-buttonUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Neomorphic button";
+			};
+			name = Debug;
+		};
+		67557FC8251A27CD00C7B36A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CPYT3A73TA;
+				INFOPLIST_FILE = "Neomorphic buttonUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "mauro.Neomorphic-buttonUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Neomorphic button";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		67557F96251A27CB00C7B36A /* Build configuration list for PBXProject "Neomorphic button" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67557FBE251A27CD00C7B36A /* Debug */,
+				67557FBF251A27CD00C7B36A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		67557FC0251A27CD00C7B36A /* Build configuration list for PBXNativeTarget "Neomorphic button" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67557FC1251A27CD00C7B36A /* Debug */,
+				67557FC2251A27CD00C7B36A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		67557FC3251A27CD00C7B36A /* Build configuration list for PBXNativeTarget "Neomorphic buttonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67557FC4251A27CD00C7B36A /* Debug */,
+				67557FC5251A27CD00C7B36A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		67557FC6251A27CD00C7B36A /* Build configuration list for PBXNativeTarget "Neomorphic buttonUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67557FC7251A27CD00C7B36A /* Debug */,
+				67557FC8251A27CD00C7B36A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 67557F93251A27CB00C7B36A /* Project object */;
+}
